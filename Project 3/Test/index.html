@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskTracker</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="wrapperLoading">
+        <div class="loadingWindow">
+            <p class="load">Loading</p>
+        </div>
+    </div>
+    <div class="header">
+        <img class="logo" src="./img/logo.svg" alt="logo">
+        <div class="headerMenu">
+            <a class="menu bank">БАНК</a>
+            <a class="menu">БИЗНЕС</a>
+            <a class="menu">ИНВЕСТИЦИИ</a>
+            <a class="menu">СТРАХОВАНИЕ</a>
+            <a class="menu">МОБАЙЛ</a>
+            <a class="menu">ПУТЕШЕСТВИЯ</a>
+            <a class="menu">РАЗВЛЕЧЕНИЯ</a>
+        </div>
+        <img class="lk" src="./img/lk.svg" alt="lk">
+    </div>
+
+    <div class="container">
+        <h1>Конвертер валют онлайн</h1>
+        <div class="olo">
+            <div class="currency">
+                <div class="leftCurr">
+                    <p class="buy">У меня есть</p>
+                    <div class="curreny currenyLeft">
+                        <button class="currencies leftBorder one">RUB</button>
+                        <button class="currencies">USD</button>
+                        <button class="currencies">EUR</button>
+                        <button class="currencies">GBP</button>
+                    </div>
+                    <div class="text">
+                        <input class="inpPut inpPutLeft" type="number" value="1">
+                        <p class="rates"></p>
+                    </div>
+                </div>
+            </div>
+            <img class="change" src="./img/Group 5.svg" alt="img">
+            <div class="rightCurr">
+                <p class="buy">Хочу приобрести</p>
+                <div class="curreny currenyRight">
+                    <button class="currencies leftBorder">RUB</button>
+                    <button class="currencies one">USD</button>
+                    <button class="currencies">EUR</button>
+                    <button class="currencies">GBP</button>
+                </div>
+                <div class="text">
+                    <input class="inpPut inpPutRight" type="number">
+                    <p class="rates1"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F5F5F6;
+}
+
+.logo {
+    width: 89px;
+    height: 23px;
+}
+
+.lk {
+    width: 58px;
+    height: 33px;
+}
+
+.olo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerMenu {
+    font-size: 11px;
+    font-weight: 500;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 641px;
+    height: 246px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.currency {
+    display: flex;
+    justify-content: space-between;
+}
+
+.curreny {
+    width: 259px;
+    height: 30px;
+    display: flex;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.text {
+    border: 1px solid black;
+    max-width: 259px;
+    min-width: 259px;
+    width: 259px;
+    height: 102px;
+    margin-top: 15px;
+}
+
+.buy {
+    color: #9F9F9F;
+}
+
+.currencies {
+    width: 100%;
+    color: #9F9F9F;
+    background-color: white;
+    border: 1px solid #9F9F9F;
+    outline: none;
+}
+
+.currencies:hover {
+    background-color: #833AE0;
+    color: white;
+}
+
+.scroll {
+    margin-left: 3px;
+    margin-top: -3px;
+}
+
+.change {
+    margin-top: 100px;
+}
+
+.inpPut {
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    border: none;
+    outline: none;
+}
+
+.menu {
+    color: #9F9F9F;
+}
+
+.menu:hover {
+    color: rebeccapurple;
+}
+
+.rates,
+.rates1 {
+    color: #C6C6C6;
+    margin-left: 15px;
+}
+
+.one {
+    background-color: #833AE0;
+    color: white;
+}
+
+.button-color {
+    background-color: 'white';
+    color: '#9F9F9F';
+}
+
+.bank {
+    color: black;
+}
+
+.wrapperLoading {
+    position: relative;
+}
+
+.load {
+    margin: 25% auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    width: 129px;
+    height: 54px;
+    background: #FFFFFF;
+    border-radius: 3px;
+}
